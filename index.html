@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      header {
+        width: 100%;
+        background-color: lightblue;
+        font-family: Arial;
+        text-align: center;
+        height: 50px;
+      }
+      nav {
+        background-color: cornflowerblue;
+        text-align: center;
+        font-family: Arial;
+        font-size: smaller;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      nav a {
+        /* applies to a elements within a nav */
+        margin: 25px;
+        text-decoration: none; /* removes the underline */
+        font-weight: bold;
+      }
+      article {
+        background-color: aliceblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 75%;
+        float: left;
+      }
+      h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      footer {
+        background-color: lightblue;
+        text-align: center;
+        font-weight: bold;
+        height: 25px;
+        clear: both; /* clear the "float" for footer */
+      }
+      aside {
+        width: 25%;
+        float: left; /* float to the left of whatever it's next to */
+        background-color: beige;
+        padding-top: 50px;
+        padding-bottom: 100px;
+      }
+      .links {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: small;
+      }
+      section p {
+        margin-top: -2px;
+      }
+    </style>
+    <title>My Website</title>
+  </head>
+  <body>
+    <header><h1>Welcome to my Web Site!</h1></header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <article>
+      <section>
+        <h4>News Headline 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          recusandae harum cumque dolore repellendus iste omnis dolor quae
+          laudantium saepe ducimus totam quis, eius fugiat molestiae maiores
+          officia. Quam, vero!
+        </p>
+      </section>
+      <section>
+        <h4>News Headline 2</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ratione
+          deleniti. Sint perferendis iure ipsam illum quis officia tempora
+          maiores accusantium, nihil ipsum odit possimus libero quod voluptatem!
+          Fugiat, quod?
+        </p>
+      </section>
+      <section>
+        <h4>News Headline 3</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          similique minus, praesentium voluptate soluta labore nesciunt minima
+          nobis sapiente ullam, facilis, itaque nam fugit quidem esse. Maxime
+          ipsum aperiam ratione.
+        </p>
+      </section>
+    </article>
+    <aside>
+      <br /><br />
+      <b>Important Links</b><br />
+      <a class="links" href="">Pay Electric Bill</a><br />
+      <a class="links" href="">Pay Water Bill</a><br />
+      <a class="links" href="">Pay Internet Bill</a><br />
+      <a class="links" href="">Pay Tax Bill</a><br />
+    </aside>
+    <footer>&copy;2023 Homegroaners, Inc.</footer>
+  </body>
+</html>
